@@ -4,7 +4,7 @@ number = random.randint(-10000, 10000)
 numberlas = int(repr(number)[-1])
 numberlass = number * -1
 str = " "
-if numberlass < 0:
+if numberlass <= 0:
     if numberlas > 5:
         str = "and is greater than 5"
     elif numberlas == 0:
